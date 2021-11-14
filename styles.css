@@ -1,0 +1,394 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Merriweather, sans-serif;
+  background-color: rgb(235, 242, 255);
+  color: #1d3557;
+}
+#navbar{
+  height: 70px;
+  width: auto;
+  background-color: white;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#logo{
+  width:100px;
+  margin-left: 40px;
+}
+#btn1{
+  margin-right: 60px;
+}
+.orderbtn{
+  color:white;
+  font-weight: 600;
+  font-size: 16px;
+  height:50px;
+  width:150px;
+  border-radius: 4px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border: none;
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+}
+.orderbtn:hover{
+  background-position: right;
+}
+.sec1{
+  display: flex;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.subsec1{
+  width:50%;
+  padding-left:80px;
+}
+.txt{
+  font-size: 3rem;
+  line-height: 45px;
+  font-weight: 1000;
+  margin-bottom: 10px;
+}
+.subsec2{
+  width:60%;
+  padding-left: 0px;
+  position: relative;
+}
+.hero{
+  width: 80%;
+  top:30px;
+  position: absolute;
+  z-index: 2;
+}
+.shape{
+  width: 80%;
+  position: absolute;
+  z-index: 1;
+}
+.pattren{
+  width: 80%;
+}
+.sec2{
+  position: relative;
+}
+.vid{
+  display: flex;
+  justify-content: center;
+}
+.vidback{
+  width:300px;
+  height:150px;
+  position: absolute;
+  top: 6%;
+  left:40%;
+  z-index: -3;
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+}
+.vidtxt{
+  font-size: 20px;
+  padding-left: 25%;
+  padding-right: 25%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+.sec3{
+  width: 80%;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+.exploretxt{
+  margin-top: 1rem;
+  margin-bottom: 4rem;
+  text-align: center;
+  font-size: 2rem;
+}
+.foodlist{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.fooditem{
+  height: 50%;
+  width: 30%;
+  background-color: white;
+  border-radius: 5px;
+}
+.foodimage{
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px 5px 0px 0px;
+}
+.foodtxt{
+  width: 100%;
+  padding-left: 3%;
+  line-height: 5px;
+}
+.shapebg{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: skewY(-5deg);
+    background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+    z-index: -3;
+}
+.pizza{
+  margin-top: -2rem;
+  margin-bottom: 2rem;
+}
+.vbtn{
+  display: flex;
+  justify-content: center;
+}
+.viewmore{
+  width:100%;
+  color: white;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  background: none;
+  border: none;
+  font-size: 1rem;
+  margin-top: 3rem;
+}
+.viewmore:hover{
+  width: 40%;
+  background: white;
+  color:red;
+  border-radius: 3px;
+  transition-duration:0.4s;
+}
+.sec4{
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sec4-1{
+  width:40%;
+  padding-right: 0;
+  margin-right: 0;
+}
+.sec4-2{
+  width:560px;
+}
+.top2{
+  display: flex;
+  gap:5px;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+.bottom2{
+  display: flex;
+  gap:5px;
+  vertical-align: text-top;
+}
+.restaurant1{
+  height: 180px;
+  width: 250px;
+}
+.restaurant2{
+  height:260px;
+  width: 300px;
+}
+.restaurant3{
+  height: 260px;
+  width: 300px;
+}
+.restaurant4{
+  height: 180px;
+  width: 250px;
+}
+.res{
+  border-radius: 5px;
+}
+.sec5{
+  margin: 5% 0 5% 0;
+  display: flex;
+  justify-content: center;
+}
+.stay{
+  margin-bottom: 2%;
+  display: flex;
+  justify-content: flex-start;
+}
+.email{
+  width: 270px;
+  border: 1px solid #ee89a0;
+  background-color: #fcedf0;
+  color: #1d3557;
+  font-weight: 700;
+  padding: 0.5rem;
+  border-radius: 4px;
+}
+.sec6{
+  height: 300px;
+  width: 100%;
+  padding: 4% 0 4% 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bg{
+  height: 300px;
+  width: 90%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -3;
+  border-radius: 10px;
+}
+.bgclr{
+  height: 300px;
+  width: 90%;
+  background-color: #0a4065;
+  position: absolute;
+  z-index: -2;
+  opacity: 40%;
+  border-radius: 10px;
+}
+.quotes{
+  height: 300px;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  padding: 10%;
+  font-size: 140%;
+  color: white;
+  text-align: center;
+}
+.logoinvert{
+  filter: brightness(0) invert(1);
+}
+footer{
+  border-radius: 30px 30px 0 0;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-image: linear-gradient( to right, #ff512f 0%, #dd2476 51%, #ff512f 100% );
+}
+ul{
+  line-height: 1.5;
+  list-style-type: none;
+  color: white;
+}
+@media (max-width:1200px) {
+  #logo{
+    width:100px;
+    margin-left: 10px;
+  }
+  #btn1{
+    margin-right: 20px;
+  }
+  .orderbtn{
+    font-size: 12px;
+    height:30px;
+    width:100px;
+    border-radius: 4px;
+  }
+  .subsec1{
+    width:40%;
+    padding-left:2.5%;
+  }
+  .txt{
+    font-size: 1.8rem;
+    line-height: 120%;
+    font-weight: 1000;
+    margin-bottom: 10px;
+  }
+  .subsec2{
+    width:55%;
+    margin-top: 15px;
+    padding-left: 0px;
+    position: relative;
+  }
+  .hero{
+    width:100%;
+    top:30px;
+    position: absolute;
+    z-index: 2;
+  }
+  .shape{
+    width: 95%;
+    position: absolute;
+    z-index: 1;
+  }
+  .pattren{
+    width: 95%;
+  }
+  .sec2{
+    margin-top:0px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .vid{
+    margin-left: 40px;
+    display: flex;
+    justify-content: flex-start;
+  }
+  .vidback{
+    top: 10%;
+    left:4.5%;
+  }
+  .vidtxt{
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+    padding: 0px;
+    font-size: 20px;
+  }
+  .sec3{
+    width:95%;
+    margin-top:5%;
+  }
+  .exploretxt{
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .foodtxt{
+    width: 90%;
+    padding-left: 5%;
+    line-height: 20px;
+  }
+  .viewmore:hover{
+    width:30%;
+  }
+  .sec4{
+    padding-top: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .sec4-1{
+    width:60%;
+    margin-left:2.5%;
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .sec4-2{
+    width:45%;
+    margin-right: 2.5%;
+  }
+  .restaurant1{
+    height: 80px;
+    width: 150px;
+  }
+  .restaurant2{
+    height:100px;
+    width: 200px;
+  }
+  .restaurant3{
+    height: 100px;
+    width: 200px;
+  }
+  .restaurant4{
+    height: 70px;
+    width: 150px;
+  }
+  .sec4-2{
+    width:360px;
+  }
+}
